@@ -16,7 +16,8 @@ int socket1, socket2, socketcs;
 const int PORT1 = 8082;                             // my port for communication
 const int PORT2 = 8081;                             // port of computer 2
 const int PORT3 = 9097;                             // port of computer 1 for file access
-const std::string SERVER_IP = "10.10.58.241";       // Ip of computer 2
+const std::string SERVER_IP = "10.10.59.66";       // Ip of computer 2
+const std::string SERVER_IP_CS = "10.10.58.241";       // Ip of computer 1
 mutex socket1_mutex, socket2_mutex, queue_mutex, reply_mutex, lclock_mutex;
 bool debug = true;
 
@@ -104,7 +105,7 @@ int connect_socket_cs() {
     // Set up the server address struct
     serverAddr.sin_family = AF_INET;
     serverAddr.sin_port = htons(PORT3);
-    serverAddr.sin_addr.s_addr = inet_addr(SERVER_IP.c_str());
+    serverAddr.sin_addr.s_addr = inet_addr(SERVER_IP_CS.c_str());
 
     // Connect to the server
     if (connect(socketcs, (struct sockaddr *)&serverAddr, sizeof(serverAddr)) < 0) {
