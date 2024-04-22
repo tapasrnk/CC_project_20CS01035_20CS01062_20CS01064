@@ -1,9 +1,12 @@
 ## 8th semester Cloud Computing Project. <br>
 ## Topic: implementation of lamports Mutual exclusion using logical clock. <br>
 **Contributors:** <br>
-- Amit Kumar Pandit (20CS01035) <br>
-- Gond Shubham Surendra (20CS01062) <br>
-- Tapas Ranjan Nayak (20CS01064) <br>
+| Name                   | Roll Number | Email                    |
+|------------------------|-------------|--------------------------|
+| Amit Kumar Pandit      | 20CS01035   | 20cs01035@iitbbs.ac.in  |
+| Gond Shubham Surendra | 20CS01062   | 20cs01062@iitbbs.ac.in  |
+| Tapas Ranjan Nayak    | 20CS01064   | 20cs01064@iitbbs.ac.in  |
+
 ## Approach
 
 ### Lamport's Mutual Exclusion Algorithm
