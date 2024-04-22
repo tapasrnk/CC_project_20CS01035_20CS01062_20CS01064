@@ -92,5 +92,16 @@ To run the distributed system implemented with Lamport's Mutual Exclusion Algori
 1. **Exiting the Program**:
     - To stop the program, terminate each running process individually by closing the terminal windows or using the appropriate termination command.
 
+### Demo
+1. **Computer1**
+![computer1](https://github.com/tapasrnk/CC_project_20CS01035_20CS01062_20CS01064/assets/74441392/5bed600a-1c0a-4ddf-a74e-3a04c70031cc)
 
+2. **Computer2**
+![computer2](https://github.com/tapasrnk/CC_project_20CS01035_20CS01062_20CS01064/assets/74441392/974914e3-ab8c-44ed-9f4e-0486b668191f)
+
+3. **Computer3**
+![computer3](https://github.com/tapasrnk/CC_project_20CS01035_20CS01062_20CS01064/assets/74441392/0e27fcee-0ae4-4421-9cda-e3c4c423ad47)
+
+4. **Output.txt**
+![output](https://github.com/tapasrnk/CC_project_20CS01035_20CS01062_20CS01064/assets/74441392/cefba0ac-eefd-4ed3-92c7-38fdf900672c)
 
