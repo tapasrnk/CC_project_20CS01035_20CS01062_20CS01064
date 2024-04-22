@@ -374,11 +374,6 @@ void listen_on_socketcs1() {
     while (1) {
         vector<int> v = receive_message(socketcs1);
         if (v.size() > 0) {
-            // cout << "writing to file: from computer 2 -> ";
-            // for (int x : v) {
-            //     cout << x<< " ";
-            // } 
-            // cout << "\n";
             file_mutex.lock();
             writeVectorToFile(v, "output.txt", 2);
             file_mutex.unlock();
@@ -390,11 +385,6 @@ void listen_on_socketcs2() {
     while (1) {
         vector<int> v = receive_message(socketcs2);
         if (v.size() > 0) {
-            // cout << "writing to file: from computer 3 -> ";
-            // for (int x : v) {
-            //     cout << x<< " ";
-            // } 
-            // cout << "\n";
             file_mutex.lock();
             writeVectorToFile(v, "output.txt", 3);
             file_mutex.unlock();
