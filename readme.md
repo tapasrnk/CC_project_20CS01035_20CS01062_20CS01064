@@ -48,7 +48,7 @@ To run the distributed system implemented with Lamport's Mutual Exclusion Algori
 
 ### Prerequisites
 
-1. **Computers**: You need three computers connected to the same network.
+1. **Computers**: You need three computers connected to internet.
 2. **Compiler**: Each computer must have a C++ compiler installed (e.g., g++).
 3. **Code**: Download the following files and place them on their respective computers:
     - `computer1.cpp`: Place on the first computer.
